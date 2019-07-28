@@ -1,1 +1,1 @@
-function FindProxyForURL(url, host) { return "PROXY 192.168.1.2:8118"; }
+function FindProxyForURL(url, host) { return "PROXY 127.0.0.1:49932"; }
