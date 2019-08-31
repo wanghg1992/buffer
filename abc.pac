@@ -6,8 +6,10 @@ function FindProxyForURL(url, host)
                 shExpMatch(url,"*facebook*") ||
                 shExpMatch(url,"*blogspot*") ||
                 shExpMatch(url,"*youtube*") ||
-                   shExpMatch(url,"*ted*") ||
-                shExpMatch(url,"*google*")
+                shExpMatch(url,"*ted*") ||
+                shExpMatch(url,"*google*")||
+                shExpMatch(url,"*goodnight*")||
+                shExpMatch(url,"*tinder*")    
             )
             {
                 return "PROXY 192.168.1.102:8118; DIRECT";
