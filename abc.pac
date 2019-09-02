@@ -10,7 +10,7 @@ function FindProxyForURL(url, host)
                 shExpMatch(url,"*google*")||
                 shExpMatch(url,"*goodnight*")||
                 shExpMatch(url,"*tinder*") || 
-                shExpMatch(url,"*skout*") || 
+                shExpMatch(url,"*skout*") 
                     
             )
             {
