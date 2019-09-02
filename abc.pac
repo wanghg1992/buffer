@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host)
         {
-            //return "PROXY 192.168.1.102:8118; DIRECT";
+          
             if (
                 shExpMatch(url,"*twitter*") ||
                 shExpMatch(url,"*facebook*") ||
