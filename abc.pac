@@ -14,7 +14,7 @@ function FindProxyForURL(url, host)
                     
             )
             {
-                return "PROXY 192.168.1.102:8118; DIRECT";
+                return "PROXY 192.168.1.102:8118; PROXY 192.168.1.103:8118; DIRECT";
             }    
     
     
